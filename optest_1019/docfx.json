@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**.hubpage"
         ],
         "exclude": [
           "**/obj/**",

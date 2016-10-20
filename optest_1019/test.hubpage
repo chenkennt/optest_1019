@@ -1,0 +1,8 @@
+pivots:
+- panels:
+  - id: id1
+    name: name1
+    href: href1
+  - id: id2
+    name: name2
+    href: href2
