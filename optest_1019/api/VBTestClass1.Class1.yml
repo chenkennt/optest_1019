@@ -1,0 +1,656 @@
+### YamlMime:ManagedReference
+items:
+- uid: VBTestClass1.Class1
+  commentId: T:VBTestClass1.Class1
+  id: Class1
+  parent: VBTestClass1
+  children:
+  - VBTestClass1.Class1.Keyword
+  - VBTestClass1.Class1.Value(System.String)
+  - VBTestClass1.Class1.ValueClass
+  - VBTestClass1.Class1.WithDeclarationKeyword(System.Diagnostics.CounterSampleCalculator)
+  langs:
+  - csharp
+  - vb
+  name: Class1
+  nameWithType: Class1
+  fullName: VBTestClass1.Class1
+  type: Class
+  source:
+    remote:
+      path: src/SampleClass1/SomeVbClass/Class1.vb
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: Class1
+    path: src/SampleClass1/SomeVbClass/Class1.vb
+    startLine: 3
+  assemblies:
+  - VBTestClass1
+  namespace: VBTestClass1
+  summary: "\nThis is summary from vb class...\n"
+  example: []
+  syntax:
+    content: 'public class Class1 : BaseClass1'
+    content.vb: >-
+      Public Class Class1
+          Inherits BaseClass1
+  inheritance:
+  - System.Object
+  - VBTestClass1.BaseClass1
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.Finalize
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: VBTestClass1.Class1.ValueClass
+  commentId: F:VBTestClass1.Class1.ValueClass
+  id: ValueClass
+  parent: VBTestClass1.Class1
+  langs:
+  - csharp
+  - vb
+  name: ValueClass
+  nameWithType: Class1.ValueClass
+  fullName: VBTestClass1.Class1.ValueClass
+  type: Field
+  source:
+    remote:
+      path: src/SampleClass1/SomeVbClass/Class1.vb
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: ValueClass
+    path: src/SampleClass1/SomeVbClass/Class1.vb
+    startLine: 11
+  assemblies:
+  - VBTestClass1
+  namespace: VBTestClass1
+  summary: "\nThis is a *Value* type\n"
+  example: []
+  syntax:
+    content: public Class1 ValueClass
+    content.vb: Public ValueClass As Class1
+    return:
+      type: VBTestClass1.Class1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: VBTestClass1.Class1.Keyword
+  commentId: P:VBTestClass1.Class1.Keyword
+  id: Keyword
+  parent: VBTestClass1.Class1
+  langs:
+  - csharp
+  - vb
+  name: Keyword
+  nameWithType: Class1.Keyword
+  fullName: VBTestClass1.Class1.Keyword
+  type: Property
+  source:
+    remote:
+      path: src/SampleClass1/SomeVbClass/Class1.vb
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: Keyword
+    path: src/SampleClass1/SomeVbClass/Class1.vb
+    startLine: 13
+  assemblies:
+  - VBTestClass1
+  namespace: VBTestClass1
+  syntax:
+    content: >-
+      [Obsolete("This member is obsolete.", true)]
+
+      public CounterSampleCalculator Keyword { get; }
+    content.vb: >-
+      <Obsolete("This member is obsolete.", True)>
+
+      Public ReadOnly Property Keyword As CounterSampleCalculator
+    parameters: []
+    return:
+      type: System.Diagnostics.CounterSampleCalculator
+  overload: VBTestClass1.Class1.Keyword*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This member is obsolete.
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: VBTestClass1.Class1.WithDeclarationKeyword(System.Diagnostics.CounterSampleCalculator)
+  commentId: M:VBTestClass1.Class1.WithDeclarationKeyword(System.Diagnostics.CounterSampleCalculator)
+  id: WithDeclarationKeyword(System.Diagnostics.CounterSampleCalculator)
+  parent: VBTestClass1.Class1
+  langs:
+  - csharp
+  - vb
+  name: WithDeclarationKeyword(CounterSampleCalculator)
+  nameWithType: Class1.WithDeclarationKeyword(CounterSampleCalculator)
+  fullName: VBTestClass1.Class1.WithDeclarationKeyword(System.Diagnostics.CounterSampleCalculator)
+  type: Method
+  source:
+    remote:
+      path: src/SampleClass1/SomeVbClass/Class1.vb
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: WithDeclarationKeyword
+    path: src/SampleClass1/SomeVbClass/Class1.vb
+    startLine: 23
+  assemblies:
+  - VBTestClass1
+  namespace: VBTestClass1
+  summary: "\nWhat is **Sub**?\n"
+  example: []
+  syntax:
+    content: public override DateTime WithDeclarationKeyword(CounterSampleCalculator keyword)
+    content.vb: Public Overrides Function WithDeclarationKeyword(keyword As CounterSampleCalculator) As Date
+    parameters:
+    - id: keyword
+      type: System.Diagnostics.CounterSampleCalculator
+    return:
+      type: System.DateTime
+  overridden: VBTestClass1.BaseClass1.WithDeclarationKeyword(System.Diagnostics.CounterSampleCalculator)
+  overload: VBTestClass1.Class1.WithDeclarationKeyword*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: VBTestClass1.Class1.Value(System.String)
+  commentId: M:VBTestClass1.Class1.Value(System.String)
+  id: Value(System.String)
+  parent: VBTestClass1.Class1
+  langs:
+  - csharp
+  - vb
+  name: Value(String)
+  nameWithType: Class1.Value(String)
+  fullName: VBTestClass1.Class1.Value(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/SampleClass1/SomeVbClass/Class1.vb
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: Value
+    path: src/SampleClass1/SomeVbClass/Class1.vb
+    startLine: 34
+  assemblies:
+  - VBTestClass1
+  namespace: VBTestClass1
+  summary: "\nThis is a *Function*\n"
+  example: []
+  syntax:
+    content: public int Value(string name)
+    content.vb: Public Function Value(name As String) As Integer
+    parameters:
+    - id: name
+      type: System.String
+      description: >-
+        Name as the **String**
+
+        value
+    return:
+      type: System.Int32
+      description: >-
+        **Returns**
+
+        Ahooo
+  overload: VBTestClass1.Class1.Value*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: VBTestClass1
+  commentId: N:VBTestClass1
+  isExternal: false
+  name: VBTestClass1
+  nameWithType: VBTestClass1
+  fullName: VBTestClass1
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: VBTestClass1.BaseClass1
+  commentId: T:VBTestClass1.BaseClass1
+  parent: VBTestClass1
+  isExternal: false
+  name: BaseClass1
+  nameWithType: BaseClass1
+  fullName: VBTestClass1.BaseClass1
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Finalize
+  commentId: M:System.Object.Finalize
+  parent: System.Object
+  isExternal: true
+  name: Finalize()
+  nameWithType: Object.Finalize()
+  fullName: System.Object.Finalize()
+  spec.csharp:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: VBTestClass1.Class1
+  commentId: T:VBTestClass1.Class1
+  parent: VBTestClass1
+  isExternal: false
+  name: Class1
+  nameWithType: Class1
+  fullName: VBTestClass1.Class1
+- uid: VBTestClass1.Class1.Keyword*
+  commentId: Overload:VBTestClass1.Class1.Keyword
+  isExternal: false
+  name: Keyword
+  nameWithType: Class1.Keyword
+  fullName: VBTestClass1.Class1.Keyword
+- uid: System.Diagnostics.CounterSampleCalculator
+  commentId: T:System.Diagnostics.CounterSampleCalculator
+  parent: System.Diagnostics
+  isExternal: true
+  name: CounterSampleCalculator
+  nameWithType: CounterSampleCalculator
+  fullName: System.Diagnostics.CounterSampleCalculator
+- uid: System.Diagnostics
+  commentId: N:System.Diagnostics
+  isExternal: false
+  name: System.Diagnostics
+  nameWithType: System.Diagnostics
+  fullName: System.Diagnostics
+- uid: VBTestClass1.BaseClass1.WithDeclarationKeyword(System.Diagnostics.CounterSampleCalculator)
+  commentId: M:VBTestClass1.BaseClass1.WithDeclarationKeyword(System.Diagnostics.CounterSampleCalculator)
+  parent: VBTestClass1.BaseClass1
+  isExternal: true
+  name: WithDeclarationKeyword(CounterSampleCalculator)
+  nameWithType: BaseClass1.WithDeclarationKeyword(CounterSampleCalculator)
+  fullName: VBTestClass1.BaseClass1.WithDeclarationKeyword(System.Diagnostics.CounterSampleCalculator)
+  spec.csharp:
+  - uid: VBTestClass1.BaseClass1.WithDeclarationKeyword(System.Diagnostics.CounterSampleCalculator)
+    name: WithDeclarationKeyword
+    nameWithType: BaseClass1.WithDeclarationKeyword
+    fullName: VBTestClass1.BaseClass1.WithDeclarationKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Diagnostics.CounterSampleCalculator
+    name: CounterSampleCalculator
+    nameWithType: CounterSampleCalculator
+    fullName: System.Diagnostics.CounterSampleCalculator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: VBTestClass1.BaseClass1.WithDeclarationKeyword(System.Diagnostics.CounterSampleCalculator)
+    name: WithDeclarationKeyword
+    nameWithType: BaseClass1.WithDeclarationKeyword
+    fullName: VBTestClass1.BaseClass1.WithDeclarationKeyword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Diagnostics.CounterSampleCalculator
+    name: CounterSampleCalculator
+    nameWithType: CounterSampleCalculator
+    fullName: System.Diagnostics.CounterSampleCalculator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: VBTestClass1.Class1.WithDeclarationKeyword*
+  commentId: Overload:VBTestClass1.Class1.WithDeclarationKeyword
+  isExternal: false
+  name: WithDeclarationKeyword
+  nameWithType: Class1.WithDeclarationKeyword
+  fullName: VBTestClass1.Class1.WithDeclarationKeyword
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: VBTestClass1.Class1.Value*
+  commentId: Overload:VBTestClass1.Class1.Value
+  isExternal: false
+  name: Value
+  nameWithType: Class1.Value
+  fullName: VBTestClass1.Class1.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

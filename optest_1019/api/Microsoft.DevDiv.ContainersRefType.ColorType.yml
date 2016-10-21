@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.DevDiv.ContainersRefType.ColorType
+  commentId: T:Microsoft.DevDiv.ContainersRefType.ColorType
+  id: ContainersRefType.ColorType
+  parent: Microsoft.DevDiv
+  children:
+  - Microsoft.DevDiv.ContainersRefType.ColorType.Blue
+  - Microsoft.DevDiv.ContainersRefType.ColorType.Red
+  - Microsoft.DevDiv.ContainersRefType.ColorType.Yellow
+  langs:
+  - csharp
+  - vb
+  name: ContainersRefType.ColorType
+  nameWithType: ContainersRefType.ColorType
+  fullName: Microsoft.DevDiv.ContainersRefType.ColorType
+  type: Enum
+  source:
+    remote:
+      path: src/SampleClass1/BaseClass/BaseClass.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: ColorType
+    path: src/SampleClass1/BaseClass/BaseClass.cs
+    startLine: 23
+  assemblies:
+  - BaseClassForTestClass1
+  namespace: Microsoft.DevDiv
+  summary: "\nEnumeration ColorType\n"
+  example: []
+  syntax:
+    content: public enum ColorType
+    content.vb: Public Enum ColorType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Microsoft.DevDiv.ContainersRefType.ColorType.Red
+  commentId: F:Microsoft.DevDiv.ContainersRefType.ColorType.Red
+  id: Red
+  parent: Microsoft.DevDiv.ContainersRefType.ColorType
+  langs:
+  - csharp
+  - vb
+  name: Red
+  nameWithType: ContainersRefType.ColorType.Red
+  fullName: Microsoft.DevDiv.ContainersRefType.ColorType.Red
+  type: Field
+  source:
+    remote:
+      path: src/SampleClass1/BaseClass/BaseClass.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: Red
+    path: src/SampleClass1/BaseClass/BaseClass.cs
+    startLine: 28
+  assemblies:
+  - BaseClassForTestClass1
+  namespace: Microsoft.DevDiv
+  summary: "\nred\n"
+  example: []
+  syntax:
+    content: Red = 0
+    return:
+      type: Microsoft.DevDiv.ContainersRefType.ColorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Microsoft.DevDiv.ContainersRefType.ColorType.Blue
+  commentId: F:Microsoft.DevDiv.ContainersRefType.ColorType.Blue
+  id: Blue
+  parent: Microsoft.DevDiv.ContainersRefType.ColorType
+  langs:
+  - csharp
+  - vb
+  name: Blue
+  nameWithType: ContainersRefType.ColorType.Blue
+  fullName: Microsoft.DevDiv.ContainersRefType.ColorType.Blue
+  type: Field
+  source:
+    remote:
+      path: src/SampleClass1/BaseClass/BaseClass.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: Blue
+    path: src/SampleClass1/BaseClass/BaseClass.cs
+    startLine: 32
+  assemblies:
+  - BaseClassForTestClass1
+  namespace: Microsoft.DevDiv
+  summary: "\nblue\n"
+  example: []
+  syntax:
+    content: Blue = 1
+    return:
+      type: Microsoft.DevDiv.ContainersRefType.ColorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Microsoft.DevDiv.ContainersRefType.ColorType.Yellow
+  commentId: F:Microsoft.DevDiv.ContainersRefType.ColorType.Yellow
+  id: Yellow
+  parent: Microsoft.DevDiv.ContainersRefType.ColorType
+  langs:
+  - csharp
+  - vb
+  name: Yellow
+  nameWithType: ContainersRefType.ColorType.Yellow
+  fullName: Microsoft.DevDiv.ContainersRefType.ColorType.Yellow
+  type: Field
+  source:
+    remote:
+      path: src/SampleClass1/BaseClass/BaseClass.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: Yellow
+    path: src/SampleClass1/BaseClass/BaseClass.cs
+    startLine: 36
+  assemblies:
+  - BaseClassForTestClass1
+  namespace: Microsoft.DevDiv
+  summary: "\nyellow\n"
+  example: []
+  syntax:
+    content: Yellow = 2
+    return:
+      type: Microsoft.DevDiv.ContainersRefType.ColorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Microsoft.DevDiv
+  commentId: N:Microsoft.DevDiv
+  isExternal: false
+  name: Microsoft.DevDiv
+  nameWithType: Microsoft.DevDiv
+  fullName: Microsoft.DevDiv
+- uid: Microsoft.DevDiv.ContainersRefType.ColorType
+  commentId: T:Microsoft.DevDiv.ContainersRefType.ColorType
+  parent: Microsoft.DevDiv
+  isExternal: false
+  name: ContainersRefType.ColorType
+  nameWithType: ContainersRefType.ColorType
+  fullName: Microsoft.DevDiv.ContainersRefType.ColorType

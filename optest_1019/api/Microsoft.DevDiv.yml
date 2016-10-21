@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.DevDiv
+  commentId: N:Microsoft.DevDiv
+  id: Microsoft.DevDiv
+  children:
+  - Microsoft.DevDiv.ContainersRefType
+  - Microsoft.DevDiv.ContainersRefType.ColorType
+  - Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChild
+  - Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChildInterface
+  - Microsoft.DevDiv.ContainersRefType.ContainersRefTypeDelegate
+  - Microsoft.DevDiv.ExplicitLayoutClass
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.DevDiv
+  nameWithType: Microsoft.DevDiv
+  fullName: Microsoft.DevDiv
+  type: Namespace
+  assemblies:
+  - BaseClassForTestClass1
+references:
+- uid: Microsoft.DevDiv.ContainersRefType
+  commentId: T:Microsoft.DevDiv.ContainersRefType
+  isExternal: false
+  name: ContainersRefType
+  nameWithType: ContainersRefType
+  fullName: Microsoft.DevDiv.ContainersRefType
+- uid: Microsoft.DevDiv.ContainersRefType.ColorType
+  commentId: T:Microsoft.DevDiv.ContainersRefType.ColorType
+  parent: Microsoft.DevDiv
+  isExternal: false
+  name: ContainersRefType.ColorType
+  nameWithType: ContainersRefType.ColorType
+  fullName: Microsoft.DevDiv.ContainersRefType.ColorType
+- uid: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeDelegate
+  commentId: T:Microsoft.DevDiv.ContainersRefType.ContainersRefTypeDelegate
+  isExternal: false
+  name: ContainersRefType.ContainersRefTypeDelegate
+  nameWithType: ContainersRefType.ContainersRefTypeDelegate
+  fullName: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeDelegate
+- uid: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChildInterface
+  commentId: T:Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChildInterface
+  isExternal: false
+  name: ContainersRefType.ContainersRefTypeChildInterface
+  nameWithType: ContainersRefType.ContainersRefTypeChildInterface
+  fullName: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChildInterface
+- uid: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChild
+  commentId: T:Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChild
+  isExternal: false
+  name: ContainersRefType.ContainersRefTypeChild
+  nameWithType: ContainersRefType.ContainersRefTypeChild
+  fullName: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChild
+- uid: Microsoft.DevDiv.ExplicitLayoutClass
+  commentId: T:Microsoft.DevDiv.ExplicitLayoutClass
+  isExternal: false
+  name: ExplicitLayoutClass
+  nameWithType: ExplicitLayoutClass
+  fullName: Microsoft.DevDiv.ExplicitLayoutClass
+- uid: Microsoft.DevDiv
+  commentId: N:Microsoft.DevDiv
+  isExternal: false
+  name: Microsoft.DevDiv
+  nameWithType: Microsoft.DevDiv
+  fullName: Microsoft.DevDiv

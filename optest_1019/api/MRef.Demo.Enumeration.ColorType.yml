@@ -1,0 +1,172 @@
+### YamlMime:ManagedReference
+items:
+- uid: MRef.Demo.Enumeration.ColorType
+  commentId: T:MRef.Demo.Enumeration.ColorType
+  id: ColorType
+  parent: MRef.Demo.Enumeration
+  children:
+  - MRef.Demo.Enumeration.ColorType.Blue
+  - MRef.Demo.Enumeration.ColorType.Red
+  - MRef.Demo.Enumeration.ColorType.Yellow
+  langs:
+  - csharp
+  - vb
+  name: ColorType
+  nameWithType: ColorType
+  fullName: MRef.Demo.Enumeration.ColorType
+  type: Enum
+  source:
+    remote:
+      path: src/SampleClass1/CatLibrary/Class1.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: ColorType
+    path: src/SampleClass1/CatLibrary/Class1.cs
+    startLine: 398
+  assemblies:
+  - CatLibrary
+  namespace: MRef.Demo.Enumeration
+  summary: "\nEnumeration ColorType\n"
+  remarks: "\n<p>\nRed/Blue/Yellow can become all color you want.\n</p>\n<ul></ul>\n"
+  example: []
+  syntax:
+    content: public enum ColorType
+    content.vb: Public Enum ColorType
+  seealso:
+  - linkId: System.Object
+    commentId: T:System.Object
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: MRef.Demo.Enumeration.ColorType.Red
+  commentId: F:MRef.Demo.Enumeration.ColorType.Red
+  id: Red
+  parent: MRef.Demo.Enumeration.ColorType
+  langs:
+  - csharp
+  - vb
+  name: Red
+  nameWithType: ColorType.Red
+  fullName: MRef.Demo.Enumeration.ColorType.Red
+  type: Field
+  source:
+    remote:
+      path: src/SampleClass1/CatLibrary/Class1.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: Red
+    path: src/SampleClass1/CatLibrary/Class1.cs
+    startLine: 403
+  assemblies:
+  - CatLibrary
+  namespace: MRef.Demo.Enumeration
+  summary: "\nthis color is red\n"
+  example: []
+  syntax:
+    content: Red = 0
+    return:
+      type: MRef.Demo.Enumeration.ColorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MRef.Demo.Enumeration.ColorType.Blue
+  commentId: F:MRef.Demo.Enumeration.ColorType.Blue
+  id: Blue
+  parent: MRef.Demo.Enumeration.ColorType
+  langs:
+  - csharp
+  - vb
+  name: Blue
+  nameWithType: ColorType.Blue
+  fullName: MRef.Demo.Enumeration.ColorType.Blue
+  type: Field
+  source:
+    remote:
+      path: src/SampleClass1/CatLibrary/Class1.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: Blue
+    path: src/SampleClass1/CatLibrary/Class1.cs
+    startLine: 407
+  assemblies:
+  - CatLibrary
+  namespace: MRef.Demo.Enumeration
+  summary: "\nblue like river\n"
+  example: []
+  syntax:
+    content: Blue = 1
+    return:
+      type: MRef.Demo.Enumeration.ColorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MRef.Demo.Enumeration.ColorType.Yellow
+  commentId: F:MRef.Demo.Enumeration.ColorType.Yellow
+  id: Yellow
+  parent: MRef.Demo.Enumeration.ColorType
+  langs:
+  - csharp
+  - vb
+  name: Yellow
+  nameWithType: ColorType.Yellow
+  fullName: MRef.Demo.Enumeration.ColorType.Yellow
+  type: Field
+  source:
+    remote:
+      path: src/SampleClass1/CatLibrary/Class1.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: Yellow
+    path: src/SampleClass1/CatLibrary/Class1.cs
+    startLine: 411
+  assemblies:
+  - CatLibrary
+  namespace: MRef.Demo.Enumeration
+  summary: "\nyellow comes from desert\n"
+  example: []
+  syntax:
+    content: Yellow = 2
+    return:
+      type: MRef.Demo.Enumeration.ColorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: MRef.Demo.Enumeration
+  commentId: N:MRef.Demo.Enumeration
+  isExternal: false
+  name: MRef.Demo.Enumeration
+  nameWithType: MRef.Demo.Enumeration
+  fullName: MRef.Demo.Enumeration
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MRef.Demo.Enumeration.ColorType
+  commentId: T:MRef.Demo.Enumeration.ColorType
+  parent: MRef.Demo.Enumeration
+  isExternal: false
+  name: ColorType
+  nameWithType: ColorType
+  fullName: MRef.Demo.Enumeration.ColorType

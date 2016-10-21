@@ -1,0 +1,43 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeDelegate
+  commentId: T:Microsoft.DevDiv.ContainersRefType.ContainersRefTypeDelegate
+  id: ContainersRefType.ContainersRefTypeDelegate
+  parent: Microsoft.DevDiv
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ContainersRefType.ContainersRefTypeDelegate
+  nameWithType: ContainersRefType.ContainersRefTypeDelegate
+  fullName: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeDelegate
+  type: Delegate
+  source:
+    remote:
+      path: src/SampleClass1/BaseClass/BaseClass.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: ContainersRefTypeDelegate
+    path: src/SampleClass1/BaseClass/BaseClass.cs
+    startLine: 43
+  assemblies:
+  - BaseClassForTestClass1
+  namespace: Microsoft.DevDiv
+  summary: "\nDelegate ContainersRefTypeDelegate\n"
+  example: []
+  syntax:
+    content: public delegate void ContainersRefTypeDelegate();
+    content.vb: Public Delegate Sub ContainersRefTypeDelegate
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Microsoft.DevDiv
+  commentId: N:Microsoft.DevDiv
+  isExternal: false
+  name: Microsoft.DevDiv
+  nameWithType: Microsoft.DevDiv
+  fullName: Microsoft.DevDiv

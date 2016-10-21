@@ -1,0 +1,58 @@
+### YamlMime:TableOfContent
+- uid: CatLibrary
+  name: CatLibrary
+  items:
+  - uid: CatLibrary.Cat`2
+    name: Cat<T, K>
+    name.vb: Cat(Of T, K)
+  - uid: CatLibrary.CatException`1
+    name: CatException<T>
+    name.vb: CatException(Of T)
+  - uid: CatLibrary.Complex`2
+    name: Complex<T, J>
+    name.vb: Complex(Of T, J)
+  - uid: CatLibrary.FakeDelegate`1
+    name: FakeDelegate<T>
+    name.vb: FakeDelegate(Of T)
+  - uid: CatLibrary.IAnimal
+    name: IAnimal
+  - uid: CatLibrary.ICat
+    name: ICat
+  - uid: CatLibrary.ICatExtension
+    name: ICatExtension
+  - uid: CatLibrary.MRefDelegate`3
+    name: MRefDelegate<K, T, L>
+    name.vb: MRefDelegate(Of K, T, L)
+  - uid: CatLibrary.MRefNormalDelegate
+    name: MRefNormalDelegate
+  - uid: CatLibrary.Tom
+    name: Tom
+  - uid: CatLibrary.TomFromBaseClass
+    name: TomFromBaseClass
+- uid: Microsoft.DevDiv
+  name: Microsoft.DevDiv
+  items:
+  - uid: Microsoft.DevDiv.ContainersRefType
+    name: ContainersRefType
+  - uid: Microsoft.DevDiv.ContainersRefType.ColorType
+    name: ContainersRefType.ColorType
+  - uid: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChild
+    name: ContainersRefType.ContainersRefTypeChild
+  - uid: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChildInterface
+    name: ContainersRefType.ContainersRefTypeChildInterface
+  - uid: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeDelegate
+    name: ContainersRefType.ContainersRefTypeDelegate
+  - uid: Microsoft.DevDiv.ExplicitLayoutClass
+    name: ExplicitLayoutClass
+- uid: MRef.Demo.Enumeration
+  name: MRef.Demo.Enumeration
+  items:
+  - uid: MRef.Demo.Enumeration.ColorType
+    name: ColorType
+- uid: VBTestClass1
+  name: VBTestClass1
+  items:
+  - uid: VBTestClass1.BaseClass1
+    name: BaseClass1
+  - uid: VBTestClass1.Class1
+    name: Class1

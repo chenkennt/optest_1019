@@ -1,0 +1,716 @@
+### YamlMime:ManagedReference
+items:
+- uid: CatLibrary.Tom
+  commentId: T:CatLibrary.Tom
+  id: Tom
+  parent: CatLibrary
+  children:
+  - CatLibrary.Tom.TomMethod(CatLibrary.Complex{CatLibrary.TomFromBaseClass,CatLibrary.TomFromBaseClass},System.Tuple{System.String,CatLibrary.Tom})
+  langs:
+  - csharp
+  - vb
+  name: Tom
+  nameWithType: Tom
+  fullName: CatLibrary.Tom
+  type: Class
+  source:
+    remote:
+      path: src/SampleClass1/CatLibrary/Class1.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: Tom
+    path: src/SampleClass1/CatLibrary/Class1.cs
+    startLine: 281
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\nTom class is only inherit from Object. Not any member inside itself.\n"
+  example: []
+  syntax:
+    content: public class Tom
+    content.vb: Public Class Tom
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CatLibrary.Tom.TomMethod(CatLibrary.Complex{CatLibrary.TomFromBaseClass,CatLibrary.TomFromBaseClass},System.Tuple{System.String,CatLibrary.Tom})
+  commentId: M:CatLibrary.Tom.TomMethod(CatLibrary.Complex{CatLibrary.TomFromBaseClass,CatLibrary.TomFromBaseClass},System.Tuple{System.String,CatLibrary.Tom})
+  id: TomMethod(CatLibrary.Complex{CatLibrary.TomFromBaseClass,CatLibrary.TomFromBaseClass},System.Tuple{System.String,CatLibrary.Tom})
+  parent: CatLibrary.Tom
+  langs:
+  - csharp
+  - vb
+  name: TomMethod(Complex<TomFromBaseClass, TomFromBaseClass>, Tuple<String, Tom>)
+  nameWithType: Tom.TomMethod(Complex<TomFromBaseClass, TomFromBaseClass>, Tuple<String, Tom>)
+  fullName: CatLibrary.Tom.TomMethod(CatLibrary.Complex<CatLibrary.TomFromBaseClass, CatLibrary.TomFromBaseClass>, System.Tuple<System.String, CatLibrary.Tom>)
+  type: Method
+  source:
+    remote:
+      path: src/SampleClass1/CatLibrary/Class1.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: TomMethod
+    path: src/SampleClass1/CatLibrary/Class1.cs
+    startLine: 292
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\nThis is a Tom Method with complex type as return\n"
+  example: []
+  syntax:
+    content: public Complex<string, TomFromBaseClass> TomMethod(Complex<TomFromBaseClass, TomFromBaseClass> a, Tuple<string, Tom> b)
+    content.vb: Public Function TomMethod(a As Complex(Of TomFromBaseClass, TomFromBaseClass), b As Tuple(Of String, Tom)) As Complex(Of String, TomFromBaseClass)
+    parameters:
+    - id: a
+      type: CatLibrary.Complex{CatLibrary.TomFromBaseClass,CatLibrary.TomFromBaseClass}
+      description: A complex input
+    - id: b
+      type: System.Tuple{System.String,CatLibrary.Tom}
+      description: Another complex input
+    return:
+      type: CatLibrary.Complex{System.String,CatLibrary.TomFromBaseClass}
+      description: Complex @CatLibrary.TomFromBaseClass
+  overload: CatLibrary.Tom.TomMethod*
+  exceptions:
+  - type: System.NotImplementedException
+    commentId: T:System.NotImplementedException
+    description: This is not implemented
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: This is the exception to be thrown when implemented
+  - type: CatLibrary.CatException`1
+    commentId: T:CatLibrary.CatException`1
+    description: This is the exception in current documentation
+  nameWithType.vb: Tom.TomMethod(Complex(Of TomFromBaseClass, TomFromBaseClass), Tuple(Of String, Tom))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CatLibrary.Tom.TomMethod(CatLibrary.Complex(Of CatLibrary.TomFromBaseClass, CatLibrary.TomFromBaseClass), System.Tuple(Of System.String, CatLibrary.Tom))
+  name.vb: TomMethod(Complex(Of TomFromBaseClass, TomFromBaseClass), Tuple(Of String, Tom))
+references:
+- uid: CatLibrary
+  commentId: N:CatLibrary
+  isExternal: false
+  name: CatLibrary
+  nameWithType: CatLibrary
+  fullName: CatLibrary
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CatLibrary.Tom.TomMethod*
+  commentId: Overload:CatLibrary.Tom.TomMethod
+  isExternal: false
+  name: TomMethod
+  nameWithType: Tom.TomMethod
+  fullName: CatLibrary.Tom.TomMethod
+- uid: System.NotImplementedException
+  commentId: T:System.NotImplementedException
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+- uid: CatLibrary.CatException`1
+  commentId: T:CatLibrary.CatException`1
+  isExternal: false
+  name: CatException<T>
+  nameWithType: CatException<T>
+  fullName: CatLibrary.CatException<T>
+  nameWithType.vb: CatException(Of T)
+  fullname.vb: CatLibrary.CatException(Of T)
+  name.vb: CatException(Of T)
+  spec.csharp:
+  - uid: CatLibrary.CatException`1
+    name: CatException
+    nameWithType: CatException
+    fullName: CatLibrary.CatException
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CatLibrary.CatException`1
+    name: CatException
+    nameWithType: CatException
+    fullName: CatLibrary.CatException
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CatLibrary.Complex{CatLibrary.TomFromBaseClass,CatLibrary.TomFromBaseClass}
+  commentId: T:CatLibrary.Complex{CatLibrary.TomFromBaseClass,CatLibrary.TomFromBaseClass}
+  parent: CatLibrary
+  definition: CatLibrary.Complex`2
+  name: Complex<TomFromBaseClass, TomFromBaseClass>
+  nameWithType: Complex<TomFromBaseClass, TomFromBaseClass>
+  fullName: CatLibrary.Complex<CatLibrary.TomFromBaseClass, CatLibrary.TomFromBaseClass>
+  nameWithType.vb: Complex(Of TomFromBaseClass, TomFromBaseClass)
+  fullname.vb: CatLibrary.Complex(Of CatLibrary.TomFromBaseClass, CatLibrary.TomFromBaseClass)
+  name.vb: Complex(Of TomFromBaseClass, TomFromBaseClass)
+  spec.csharp:
+  - uid: CatLibrary.Complex`2
+    name: Complex
+    nameWithType: Complex
+    fullName: CatLibrary.Complex
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CatLibrary.TomFromBaseClass
+    name: TomFromBaseClass
+    nameWithType: TomFromBaseClass
+    fullName: CatLibrary.TomFromBaseClass
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CatLibrary.TomFromBaseClass
+    name: TomFromBaseClass
+    nameWithType: TomFromBaseClass
+    fullName: CatLibrary.TomFromBaseClass
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CatLibrary.Complex`2
+    name: Complex
+    nameWithType: Complex
+    fullName: CatLibrary.Complex
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CatLibrary.TomFromBaseClass
+    name: TomFromBaseClass
+    nameWithType: TomFromBaseClass
+    fullName: CatLibrary.TomFromBaseClass
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CatLibrary.TomFromBaseClass
+    name: TomFromBaseClass
+    nameWithType: TomFromBaseClass
+    fullName: CatLibrary.TomFromBaseClass
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Tuple{System.String,CatLibrary.Tom}
+  commentId: T:System.Tuple{System.String,CatLibrary.Tom}
+  parent: System
+  definition: System.Tuple`2
+  name: Tuple<String, Tom>
+  nameWithType: Tuple<String, Tom>
+  fullName: System.Tuple<System.String, CatLibrary.Tom>
+  nameWithType.vb: Tuple(Of String, Tom)
+  fullname.vb: System.Tuple(Of System.String, CatLibrary.Tom)
+  name.vb: Tuple(Of String, Tom)
+  spec.csharp:
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CatLibrary.Tom
+    name: Tom
+    nameWithType: Tom
+    fullName: CatLibrary.Tom
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CatLibrary.Tom
+    name: Tom
+    nameWithType: Tom
+    fullName: CatLibrary.Tom
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CatLibrary.Complex{System.String,CatLibrary.TomFromBaseClass}
+  commentId: T:CatLibrary.Complex{System.String,CatLibrary.TomFromBaseClass}
+  parent: CatLibrary
+  definition: CatLibrary.Complex`2
+  name: Complex<String, TomFromBaseClass>
+  nameWithType: Complex<String, TomFromBaseClass>
+  fullName: CatLibrary.Complex<System.String, CatLibrary.TomFromBaseClass>
+  nameWithType.vb: Complex(Of String, TomFromBaseClass)
+  fullname.vb: CatLibrary.Complex(Of System.String, CatLibrary.TomFromBaseClass)
+  name.vb: Complex(Of String, TomFromBaseClass)
+  spec.csharp:
+  - uid: CatLibrary.Complex`2
+    name: Complex
+    nameWithType: Complex
+    fullName: CatLibrary.Complex
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CatLibrary.TomFromBaseClass
+    name: TomFromBaseClass
+    nameWithType: TomFromBaseClass
+    fullName: CatLibrary.TomFromBaseClass
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CatLibrary.Complex`2
+    name: Complex
+    nameWithType: Complex
+    fullName: CatLibrary.Complex
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CatLibrary.TomFromBaseClass
+    name: TomFromBaseClass
+    nameWithType: TomFromBaseClass
+    fullName: CatLibrary.TomFromBaseClass
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CatLibrary.Complex`2
+  commentId: T:CatLibrary.Complex`2
+  isExternal: false
+  name: Complex<T, J>
+  nameWithType: Complex<T, J>
+  fullName: CatLibrary.Complex<T, J>
+  nameWithType.vb: Complex(Of T, J)
+  fullname.vb: CatLibrary.Complex(Of T, J)
+  name.vb: Complex(Of T, J)
+  spec.csharp:
+  - uid: CatLibrary.Complex`2
+    name: Complex
+    nameWithType: Complex
+    fullName: CatLibrary.Complex
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: J
+    nameWithType: J
+    fullName: J
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CatLibrary.Complex`2
+    name: Complex
+    nameWithType: Complex
+    fullName: CatLibrary.Complex
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: J
+    nameWithType: J
+    fullName: J
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Tuple`2
+  commentId: T:System.Tuple`2
+  isExternal: true
+  name: Tuple<T1, T2>
+  nameWithType: Tuple<T1, T2>
+  fullName: System.Tuple<T1, T2>
+  nameWithType.vb: Tuple(Of T1, T2)
+  fullname.vb: System.Tuple(Of T1, T2)
+  name.vb: Tuple(Of T1, T2)
+  spec.csharp:
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: )
+    nameWithType: )
+    fullName: )

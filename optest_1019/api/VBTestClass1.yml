@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: VBTestClass1
+  commentId: N:VBTestClass1
+  id: VBTestClass1
+  children:
+  - VBTestClass1.BaseClass1
+  - VBTestClass1.Class1
+  langs:
+  - csharp
+  - vb
+  name: VBTestClass1
+  nameWithType: VBTestClass1
+  fullName: VBTestClass1
+  type: Namespace
+  assemblies:
+  - VBTestClass1
+references:
+- uid: VBTestClass1.Class1
+  commentId: T:VBTestClass1.Class1
+  parent: VBTestClass1
+  isExternal: false
+  name: Class1
+  nameWithType: Class1
+  fullName: VBTestClass1.Class1
+- uid: VBTestClass1.BaseClass1
+  commentId: T:VBTestClass1.BaseClass1
+  parent: VBTestClass1
+  isExternal: false
+  name: BaseClass1
+  nameWithType: BaseClass1
+  fullName: VBTestClass1.BaseClass1
+- uid: VBTestClass1
+  commentId: N:VBTestClass1
+  isExternal: false
+  name: VBTestClass1
+  nameWithType: VBTestClass1
+  fullName: VBTestClass1

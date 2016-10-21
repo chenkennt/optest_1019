@@ -1,0 +1,272 @@
+### YamlMime:ManagedReference
+items:
+- uid: CatLibrary.IAnimal
+  commentId: T:CatLibrary.IAnimal
+  id: IAnimal
+  parent: CatLibrary
+  children:
+  - CatLibrary.IAnimal.Eat
+  - CatLibrary.IAnimal.Eat(System.String)
+  - CatLibrary.IAnimal.Eat``1(``0)
+  - CatLibrary.IAnimal.Item(System.Int32)
+  - CatLibrary.IAnimal.Name
+  langs:
+  - csharp
+  - vb
+  name: IAnimal
+  nameWithType: IAnimal
+  fullName: CatLibrary.IAnimal
+  type: Interface
+  source:
+    remote:
+      path: src/SampleClass1/CatLibrary/Class1.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: IAnimal
+    path: src/SampleClass1/CatLibrary/Class1.cs
+    startLine: 15
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\nThis is <strong>basic</strong> interface of all animal.\n"
+  example: []
+  syntax:
+    content: public interface IAnimal
+    content.vb: Public Interface IAnimal
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CatLibrary.IAnimal.Name
+  commentId: P:CatLibrary.IAnimal.Name
+  id: Name
+  parent: CatLibrary.IAnimal
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IAnimal.Name
+  fullName: CatLibrary.IAnimal.Name
+  type: Property
+  source:
+    remote:
+      path: src/SampleClass1/CatLibrary/Class1.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: Name
+    path: src/SampleClass1/CatLibrary/Class1.cs
+    startLine: 21
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\nName of Animal.\n"
+  example: []
+  syntax:
+    content: string Name { get; }
+    content.vb: ReadOnly Property Name As String
+    parameters: []
+    return:
+      type: System.String
+  overload: CatLibrary.IAnimal.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: CatLibrary.IAnimal.Item(System.Int32)
+  commentId: P:CatLibrary.IAnimal.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: CatLibrary.IAnimal
+  langs:
+  - csharp
+  - vb
+  name: Item[Int32]
+  nameWithType: IAnimal.Item[Int32]
+  fullName: CatLibrary.IAnimal.Item[System.Int32]
+  type: Property
+  source:
+    remote:
+      path: src/SampleClass1/CatLibrary/Class1.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: this[]
+    path: src/SampleClass1/CatLibrary/Class1.cs
+    startLine: 28
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\nReturn specific number animal's name.\n"
+  example: []
+  syntax:
+    content: string this[int index] { get; }
+    content.vb: ReadOnly Property Item(index As Integer) As String
+    parameters:
+    - id: index
+      type: System.Int32
+      description: Animal number.
+    return:
+      type: System.String
+      description: Animal name.
+  overload: CatLibrary.IAnimal.Item*
+  nameWithType.vb: IAnimal.Item(Int32)
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: CatLibrary.IAnimal.Item(System.Int32)
+  name.vb: Item(Int32)
+- uid: CatLibrary.IAnimal.Eat
+  commentId: M:CatLibrary.IAnimal.Eat
+  id: Eat
+  parent: CatLibrary.IAnimal
+  langs:
+  - csharp
+  - vb
+  name: Eat()
+  nameWithType: IAnimal.Eat()
+  fullName: CatLibrary.IAnimal.Eat()
+  type: Method
+  source:
+    remote:
+      path: src/SampleClass1/CatLibrary/Class1.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: Eat
+    path: src/SampleClass1/CatLibrary/Class1.cs
+    startLine: 33
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\nAnimal's eat method.\n"
+  example: []
+  syntax:
+    content: void Eat()
+    content.vb: Sub Eat
+  overload: CatLibrary.IAnimal.Eat*
+- uid: CatLibrary.IAnimal.Eat``1(``0)
+  commentId: M:CatLibrary.IAnimal.Eat``1(``0)
+  id: Eat``1(``0)
+  parent: CatLibrary.IAnimal
+  langs:
+  - csharp
+  - vb
+  name: Eat<Tool>(Tool)
+  nameWithType: IAnimal.Eat<Tool>(Tool)
+  fullName: CatLibrary.IAnimal.Eat<Tool>(Tool)
+  type: Method
+  source:
+    remote:
+      path: src/SampleClass1/CatLibrary/Class1.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: Eat
+    path: src/SampleClass1/CatLibrary/Class1.cs
+    startLine: 40
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\nOverload method of eat. This define the animal eat by which tool.\n"
+  example: []
+  syntax:
+    content: 'void Eat<Tool>(Tool tool)where Tool : class'
+    content.vb: Sub Eat(Of Tool As Class)(tool As Tool)
+    parameters:
+    - id: tool
+      type: '{Tool}'
+      description: Tool name.
+    typeParameters:
+    - id: Tool
+      description: It's a class type.
+  overload: CatLibrary.IAnimal.Eat*
+  nameWithType.vb: IAnimal.Eat(Of Tool)(Tool)
+  fullName.vb: CatLibrary.IAnimal.Eat(Of Tool)(Tool)
+  name.vb: Eat(Of Tool)(Tool)
+- uid: CatLibrary.IAnimal.Eat(System.String)
+  commentId: M:CatLibrary.IAnimal.Eat(System.String)
+  id: Eat(System.String)
+  parent: CatLibrary.IAnimal
+  langs:
+  - csharp
+  - vb
+  name: Eat(String)
+  nameWithType: IAnimal.Eat(String)
+  fullName: CatLibrary.IAnimal.Eat(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/SampleClass1/CatLibrary/Class1.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: Eat
+    path: src/SampleClass1/CatLibrary/Class1.cs
+    startLine: 47
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\nFeed the animal with some food\n"
+  example: []
+  syntax:
+    content: void Eat(string food)
+    content.vb: Sub Eat(food As String)
+    parameters:
+    - id: food
+      type: System.String
+      description: Food to eat
+  overload: CatLibrary.IAnimal.Eat*
+references:
+- uid: CatLibrary
+  commentId: N:CatLibrary
+  isExternal: false
+  name: CatLibrary
+  nameWithType: CatLibrary
+  fullName: CatLibrary
+- uid: CatLibrary.IAnimal.Name*
+  commentId: Overload:CatLibrary.IAnimal.Name
+  isExternal: false
+  name: Name
+  nameWithType: IAnimal.Name
+  fullName: CatLibrary.IAnimal.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CatLibrary.IAnimal.Item*
+  commentId: Overload:CatLibrary.IAnimal.Item
+  isExternal: false
+  name: Item
+  nameWithType: IAnimal.Item
+  fullName: CatLibrary.IAnimal.Item
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CatLibrary.IAnimal.Eat*
+  commentId: Overload:CatLibrary.IAnimal.Eat
+  isExternal: false
+  name: Eat
+  nameWithType: IAnimal.Eat
+  fullName: CatLibrary.IAnimal.Eat
+- uid: '{Tool}'
+  commentId: '!:Tool'
+  definition: Tool
+  name: Tool
+  nameWithType: Tool
+  fullName: Tool
+- uid: Tool
+  isExternal: false
+  name: Tool
+  nameWithType: Tool
+  fullName: Tool

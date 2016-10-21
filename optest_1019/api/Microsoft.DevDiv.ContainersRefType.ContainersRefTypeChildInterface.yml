@@ -1,0 +1,41 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChildInterface
+  commentId: T:Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChildInterface
+  id: ContainersRefType.ContainersRefTypeChildInterface
+  parent: Microsoft.DevDiv
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ContainersRefType.ContainersRefTypeChildInterface
+  nameWithType: ContainersRefType.ContainersRefTypeChildInterface
+  fullName: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChildInterface
+  type: Interface
+  source:
+    remote:
+      path: src/SampleClass1/BaseClass/BaseClass.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: ContainersRefTypeChildInterface
+    path: src/SampleClass1/BaseClass/BaseClass.cs
+    startLine: 73
+  assemblies:
+  - BaseClassForTestClass1
+  namespace: Microsoft.DevDiv
+  syntax:
+    content: public interface ContainersRefTypeChildInterface
+    content.vb: Public Interface ContainersRefTypeChildInterface
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Microsoft.DevDiv
+  commentId: N:Microsoft.DevDiv
+  isExternal: false
+  name: Microsoft.DevDiv
+  nameWithType: Microsoft.DevDiv
+  fullName: Microsoft.DevDiv

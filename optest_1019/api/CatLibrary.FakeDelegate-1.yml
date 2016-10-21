@@ -1,0 +1,114 @@
+### YamlMime:ManagedReference
+items:
+- uid: CatLibrary.FakeDelegate`1
+  commentId: T:CatLibrary.FakeDelegate`1
+  id: FakeDelegate`1
+  parent: CatLibrary
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: FakeDelegate<T>
+  nameWithType: FakeDelegate<T>
+  fullName: CatLibrary.FakeDelegate<T>
+  type: Delegate
+  source:
+    remote:
+      path: src/SampleClass1/CatLibrary/Class1.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: FakeDelegate
+    path: src/SampleClass1/CatLibrary/Class1.cs
+    startLine: 372
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\nFake delegate\n"
+  example: []
+  syntax:
+    content: public delegate int FakeDelegate<T>(long num, string name, params object[] scores);
+    content.vb: Public Delegate Function FakeDelegate(Of T)(num As Long, name As String, ParamArray scores As Object()) As Integer
+    parameters:
+    - id: num
+      type: System.Int64
+      description: Fake para
+    - id: name
+      type: System.String
+      description: Fake para
+    - id: scores
+      type: System.Object[]
+      description: Optional Parameter.
+    typeParameters:
+    - id: T
+      description: Fake para
+    return:
+      type: System.Int32
+      description: Return a fake number to confuse you.
+  nameWithType.vb: FakeDelegate(Of T)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+  fullName.vb: CatLibrary.FakeDelegate(Of T)
+  name.vb: FakeDelegate(Of T)
+references:
+- uid: CatLibrary
+  commentId: N:CatLibrary
+  isExternal: false
+  name: CatLibrary
+  nameWithType: CatLibrary
+  fullName: CatLibrary
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object[]
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullname.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

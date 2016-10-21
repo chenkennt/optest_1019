@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: CatLibrary.MRefDelegate`3
+  commentId: T:CatLibrary.MRefDelegate`3
+  id: MRefDelegate`3
+  parent: CatLibrary
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: MRefDelegate<K, T, L>
+  nameWithType: MRefDelegate<K, T, L>
+  fullName: CatLibrary.MRefDelegate<K, T, L>
+  type: Delegate
+  source:
+    remote:
+      path: src/SampleClass1/CatLibrary/Class1.cs
+      branch: master
+      repo: https://github.com/docascode/docfx-seed.git
+    id: MRefDelegate
+    path: src/SampleClass1/CatLibrary/Class1.cs
+    startLine: 359
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\nGeneric delegate with many constrains.\n"
+  example: []
+  syntax:
+    content: 'public delegate void MRefDelegate<K, T, L>(K k, T t, L l)where K : class, IComparable where T : struct where L : Tom, IEnumerable<long>;'
+    content.vb: Public Delegate Sub MRefDelegate(Of K As {Class, IComparable}, T As Structure, L As {Tom, IEnumerable(Of Long)})(k As K, t As T, l As L)
+    parameters:
+    - id: k
+      type: '{K}'
+      description: Type K.
+    - id: t
+      type: '{T}'
+      description: Type T.
+    - id: l
+      type: '{L}'
+      description: Type L.
+    typeParameters:
+    - id: K
+      description: Generic K.
+    - id: T
+      description: Generic T.
+    - id: L
+      description: Generic L.
+  nameWithType.vb: MRefDelegate(Of K, T, L)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+  fullName.vb: CatLibrary.MRefDelegate(Of K, T, L)
+  name.vb: MRefDelegate(Of K, T, L)
+references:
+- uid: CatLibrary
+  commentId: N:CatLibrary
+  isExternal: false
+  name: CatLibrary
+  nameWithType: CatLibrary
+  fullName: CatLibrary
+- uid: '{K}'
+  commentId: '!:K'
+  definition: K
+  name: K
+  nameWithType: K
+  fullName: K
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: '{L}'
+  commentId: '!:L'
+  definition: L
+  name: L
+  nameWithType: L
+  fullName: L
+- uid: K
+  isExternal: false
+  name: K
+  nameWithType: K
+  fullName: K
+- uid: T
+  isExternal: false
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: L
+  commentId: '!:L'
+  isExternal: false
+  name: L
+  nameWithType: L
+  fullName: L
