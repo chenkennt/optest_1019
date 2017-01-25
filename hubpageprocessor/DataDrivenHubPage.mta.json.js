@@ -42,6 +42,8 @@ exports.transform = function (model) {
     model[meta] = undefined;
   }
   model._op_canonicalUrl = canonicalUrl;
+  // remove metadata that doesn't pass validation
+  model.pivots = undefined;
 
   return {
     content: JSON.stringify(model)
